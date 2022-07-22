@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dom</title>
+</head>
+<body>
+    <h1>Hello</h1>
+    <p id="text">DOM stands for Document Object Model</p>
+    <div class="box">BOX</div>
+    <div id="cardsBox">
+        <div class="card card1"></div>
+        <div class="card card2"></div>
+        <div class="card card3"></div>
+    </div>
+    <button class="buttonOne" onclick="changeFlexDirection()">Change Flex Direction</button>
+    <p id="helloText">Hello World !!!</p>
+    <button class="buttonTwo" onclick="replaceText()" >Replace Text</button>
+    <div id="timer"></div>
+    <div id="dropdown">
+        <select id="year">
+            <option value="20">2020-2021</option>
+            <option value="21">2021-2022</option>
+            <option value="22">2022-2023</option>
+        </select>   
+        <p>The value of the option selected is :&nbsp;<span id="output">&nbsp;</span></p>
+        <button onclick="getOption()"> Check option </button>
+    </div>
+    <form>
+        <label for="name">NAME : </label>
+        <input type="text" id="name" placeholder="enter name" value=""><br><br>
+        <label for="mail">E-MAIL : </label>
+        <input type="email" id="mail" placeholder="enter email" value=""><br><br>
+        <label for="phone">CONTACT NO :</label>
+        <input type="tel" id="phone" name="phone" placeholder="+91" required><br><br>
+        <label for="age">AGE :</label>
+        <input type="number" id="age" placeholder="enter age" value="">
+        <br>
+        <br>
+     <input type="submit">
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>

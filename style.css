@@ -1,0 +1,101 @@
+h1{
+    color: darkred;
+}
+.text{
+    color: purple;
+}
+.box{
+    width: 150px;
+    height: 130px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    background-color: darkorange;
+    padding: 38px 10px 0px 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+#cardsBox{
+    width: 80%;
+    height: auto;
+    padding: 50px;
+    margin-bottom: 20px;
+    border: 2px solid #000;
+    background-color: darkolivegreen;
+    opacity: 0.8;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.card{
+    width: 50px;
+    height: 70px;
+    margin: 10px auto;
+    border-radius: 10px;
+    border: 3px solid #000;
+}
+.card1{
+    background-color: blueviolet;
+}
+.card2{
+    background-color: yellow;
+}
+.card3{
+    background-color: brown;
+}
+.buttonOne{
+    padding: 4px 10px;
+    border-radius: 20px;
+    border: 2px solid orange;
+    background-color: black;
+    font-size: 1.1rem;
+    color: lawngreen;
+}
+#helloText{
+    font-size: 2rem;
+    color: darkslateblue;
+}
+.buttonTwo{
+    padding: 4px 10px;
+    border-radius: 20px;
+    border: 1px solid blue;
+    background-color: yellow;
+    color: black;
+}
+#timer{
+    width: 60%;
+    height: 120px;
+    box-sizing: border-box;
+    border: 1px solid #000;
+    background-color: aquamarine;
+    font-size: 4.2rem;
+    font-weight: bold;
+    color: darkblue;
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+#dropdown{
+    width: 20%;
+    height: 200px;
+    margin-top: 30px;
+    padding: 20px 20px;
+    background-color: bisque;
+    border: 1px solid #000;
+}
+select{
+    width: 70%;
+    height: 20px;
+}
+form{
+    width: 80%;
+    height: 250px;
+    border: 2px solid #000;
+    background-color: lavenderblush;
+    margin-top: 30px;
+    padding: 20px 10px;
+}
+input{
+    margin-top: 12px;
+    margin-left: 15px;
+}
